@@ -1,0 +1,22 @@
+.main {
+  height: 100vh;
+  background-color: aquamarine;
+}
+.container {
+  border: 1px solid;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  width: 300px;
+  background-color: azure;
+}
+.photo {
+  width: 300px;
+  height: 500px;
+  background-color: azure;
+}
