@@ -1,0 +1,27 @@
+.skills {
+  height: 100vh;
+  background-color: cyan;
+}
+
+.container {
+  border: 1px solid;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  justify-content: center;
+}
+
+.items {
+  border: 1px solid;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.block_item {
+}
