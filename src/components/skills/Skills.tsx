@@ -40,14 +40,14 @@ export function Skills() {
   return (
     <div className={style.skills}>
       <div className={style.container}>
-        <h2 className={style.title}>My Skills</h2>
+        <h1 className={style.title}>My Skills</h1>
         <div className={style.items}>
           {mySkill.map((s, i) => {
             return (
-              <div key={i}>
-                <div>{s.icon}</div>
-                <h3>{s.title}</h3>
-              </div>
+              <span key={i} className={style.skill_item}>
+                <span>{s.icon}</span>
+                <h4>{s.title}</h4>
+              </span>
             )
           })}
         </div>

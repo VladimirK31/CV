@@ -1,0 +1,22 @@
+.contacts {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(156deg, #f81f01, #ee076e);
+}
+
+.container {
+  border: 1px solid;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
