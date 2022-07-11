@@ -1,3 +1,4 @@
+import { Button, CardActions } from '@mui/material'
 import style from './ProjectItem.module.css'
 export type myProjects = {
   title: string
@@ -24,10 +25,15 @@ export function ProjectItem() {
         <div className={style.description}>
           <p>{p.description}</p>
         </div>
-
         <div className={style.blockButton}>
-          <button className={style.button}>+</button>
-          <button className={style.button}>+</button>
+          <CardActions>
+            <a style={{ textDecoration: 'none' }} href={''}>
+              <Button variant="outlined">VIEW</Button>
+            </a>
+            <a style={{ textDecoration: 'none' }} href={''}>
+              <Button variant="outlined">GIT HUB</Button>
+            </a>
+          </CardActions>
         </div>
       </div>
     )

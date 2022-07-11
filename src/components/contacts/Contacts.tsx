@@ -1,3 +1,4 @@
+import Button from '@mui/material/Button'
 import style from './Contacts.module.css'
 
 export const Contacts = () => {
@@ -7,13 +8,14 @@ export const Contacts = () => {
         <div className={style.title}>
           <h2>Contacts</h2>
         </div>
-
-        <form>
-          <input></input>
-          <input></input>
-          <textarea></textarea>
-        </form>
-        <button>Send</button>
+        <div>
+          <form className={style.textBlock}>
+            <input></input>
+            <input></input>
+            <textarea></textarea>
+          </form>
+          <Button variant="outlined">Send</Button>
+        </div>
       </div>
     </div>
   )

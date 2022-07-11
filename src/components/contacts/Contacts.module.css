@@ -20,3 +20,13 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.textBlock {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-left: 300px;
+  margin-right: 300px;
+}

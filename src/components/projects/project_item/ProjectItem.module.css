@@ -60,32 +60,3 @@
   position: absolute;
   bottom: 5px;
 }
-.button {
-  display: inline-flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  background-color: beige;
-  outline: 0px;
-  border: 0px;
-  margin: 5px;
-  cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
-  appearance: none;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 0.8125rem;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-  min-width: 64px;
-  padding: 4px 5px;
-
-  color: rgb(196, 199, 215);
-  text-decoration: none;
-}
