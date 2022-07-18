@@ -1,62 +1,25 @@
 .project_item {
+  border: 1px solid black;
+  background-image: url('https://resheto.net/images/mater/pozitivnye_kartinki_2.jpg');
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 15px 15px;
-  padding: 5px;
-  border: 1px solid;
-  min-height: 350px;
-  min-width: 300px;
-  background-color: rgb(18, 18, 18);
-  color: rgb(255, 255, 255);
-  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0.05)
-  );
-  border-radius: 8px;
+  width: 300px;
 
-  position: relative;
-  overflow: hidden;
-  max-width: 345px;
+  margin-bottom: 35px;
 }
 .img {
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  width: 100%;
-  object-fit: cover;
-  opacity: 0.5;
-  height: 200px;
-  position: relative;
-  border: 1px solid white;
 }
 .title {
-  margin: 0px 0px 0.35em;
-  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.334;
   letter-spacing: 0em;
-  font-family: Poppins, sans-serif;
+
+  text-align: inherit;
 }
 .description {
-  margin: 0px;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.43;
-  letter-spacing: 0.01071em;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Poppins, sans-serif;
+  color: black;
+  font-weight: 500;
 }
 .blockButton {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  padding: 8px;
-  position: absolute;
-  bottom: 5px;
 }

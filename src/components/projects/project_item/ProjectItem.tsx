@@ -1,39 +1,36 @@
-import { Button, CardActions } from '@mui/material'
 import style from './ProjectItem.module.css'
 export type myProjects = {
   title: string
   description: string
-  img: any
 }
 
 export function ProjectItem() {
   const myProjects: myProjects[] = [
-    { title: 'Todolist', description: 'Todolist client', img: 'todo' },
+    { title: 'Todolist', description: 'Todolist client' },
     {
       title: 'Social network',
       description:
         'Social network client.Used class components, redux, ant design',
-      img: 'socNet',
     },
-    { title: 'Cards', description: 'something', img: 'cards' },
+    { title: 'Cards', description: 'something' },
   ]
   const myProjectJSX = myProjects.map((p, i) => {
     return (
       <div key={i} className={style.project_item}>
-        <div className={style.img}>{p.img}</div>
-        <div className={style.title}>{p.title}</div>
-        <div className={style.description}>
-          <p>{p.description}</p>
-        </div>
-        <div className={style.blockButton}>
-          <CardActions>
+        <div>
+          <div className={style.title}>{p.title}</div>
+          <div className={style.blockButton}>
             <a style={{ textDecoration: 'none' }} href={''}>
-              <Button variant="outlined">VIEW</Button>
+              <button>VIEW</button>
             </a>
             <a style={{ textDecoration: 'none' }} href={''}>
-              <Button variant="outlined">GIT HUB</Button>
+              <button>GIT HUB</button>
             </a>
-          </CardActions>
+          </div>
+
+          <div className={style.description}>
+            <p>{p.description}</p>
+          </div>
         </div>
       </div>
     )
